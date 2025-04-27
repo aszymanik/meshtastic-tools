@@ -1,0 +1,9 @@
+{
+  "mqtt_host": "localhost",
+  "mqtt_port": 1883,
+  "mqtt_username": "USER",
+  "mqtt_password": "PASS",
+  "payload_from": 123456789,
+  "channel": 1,
+  "url": "https://forecast.weather.gov/MapClick.php?lat=39.9525&lon=-75.1657&unit=0&lg=english&FcstType=text&TextType=1"
+}
