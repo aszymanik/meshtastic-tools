@@ -105,7 +105,7 @@ def publish_forecasts(forecast_lines):
             "payload": line
         }
         publish.single(
-            topic="mmmmsh/US/2/json/mqtt/",
+            topic="msh/US/2/json/mqtt/",
             payload=json.dumps(payload),
             hostname=mqtt_host,
             port=mqtt_port,
